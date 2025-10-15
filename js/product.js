@@ -7,7 +7,7 @@ btn.addEventListener("click", () => {
         result.innerHTML = `
         <div class="word">
                 <h3>Title</h3>
-                <button onclick="playSound()">
+                <button onclick="downloadFile()">
                     <i class="fas fa-download"></i>
                 </button>
             </div>
@@ -22,3 +22,7 @@ btn.addEventListener("click", () => {
                 Paragra
             </p>`;
 });
+
+function downloadFile() {
+    console.log("Thue buttton works");
+}

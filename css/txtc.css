@@ -77,7 +77,6 @@
 
 .main-content .prompt-container{
     width: 100%;
-    margin-bottom: 20px;
     position: relative;
 }
 
@@ -92,6 +91,7 @@
     padding: 16px 20px;
     resize: vertical;
     transition: all 0.3s ease;
+    margin-top: 20px;
 }
 
 .prompt-container .prompt-input::placeholder{
@@ -130,9 +130,9 @@
 }
 
 .main-content .prompt-actions{
-    display: grid;
-    gap: 14px;
-    grid-template-columns: 1.2fr 1fr 1.1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .prompt-actions :where(.custom-select, .generate-btn){
@@ -147,6 +147,7 @@
 
 .prompt-actions .select-wrapper{
     position: relative;
+    min-width: 200px;
 }
 
 .prompt-actions .select-wrapper::after{

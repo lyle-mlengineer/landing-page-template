@@ -34,13 +34,13 @@
 }
 
 .header__gen .logo-wrapper .gen__logo{
-    height: 55px;
-    width: 56px;
+    height: 40px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--color-gradient);
-    border-radius: 15px;
+    border-radius: 50%;
     font-size: 1.35rem;
     flex-shrink: 0;
 }
